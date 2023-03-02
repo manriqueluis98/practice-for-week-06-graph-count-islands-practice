@@ -1,6 +1,8 @@
 function getNeighbors(row, col, matrix) {
-  
+
   // Check top
+
+  console.log("test")
   // Check top right
   // Check right
   // Check bottom right
@@ -9,16 +11,16 @@ function getNeighbors(row, col, matrix) {
   // Check left
   // Check top left
   // Return neighbors
-  
+
   // Your code here
 }
 
 function countIslands(matrix) {
-  
+
   // Create a visited set to store visited nodes
   // Initialize count to 0
   // Iterate through all indices in matrix
-    // If an index contains a 1 and has not been visited, 
+    // If an index contains a 1 and has not been visited,
     // increment island count and start traversing neighbors
       // DO THE THING (increment island count by 1)
       // Initialize a stack with current index
@@ -31,7 +33,7 @@ function countIslands(matrix) {
             // Add neighbor to stack
             // Mark neighbor as visited
   // Return island count
-  
+
   // Your code here
 }
 
