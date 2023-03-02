@@ -68,7 +68,7 @@ function countIslands(matrix) {
             // Iterate over neigbors
             ngbs.forEach((ngb)=>{
               // If neighbor has not been visited
-              let stringified = `node-${ngb[0]}-${ngb[1]}`
+              let stringified = `node-${ngb[0]}-${ngb[1]}` // for not duplicates
               if(!visited.has(stringified)){
                 // Add neighbor to stack
                 stack.push(ngb)
