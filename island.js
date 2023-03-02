@@ -2,7 +2,7 @@ function getNeighbors(row, col, matrix) {
 
   // Check top
 
-  console.log("test")
+  console.log("testss")
   // Check top right
   // Check right
   // Check bottom right
